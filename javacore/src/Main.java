@@ -17,8 +17,6 @@ public class Main {
         secondLargestInv = inventories
                 .stream().sorted(Comparator.comparing(Inventory::getQuantity))
                 .collect(Collectors.toList());
-//        secondLargestInv = secondLargestInv.stream()
-//                        .max(Comparator.comparing(Entity.Inventory::getQuantity)).stream().collect(Collectors.toList());
         System.out.println(secondLargestInv.get(secondLargestInv.size()-1));
 
     }
