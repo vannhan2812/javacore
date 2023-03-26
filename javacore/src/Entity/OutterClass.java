@@ -2,7 +2,7 @@ package Entity;
 
 import another.ClassC;
 
-public class OutterClass {
+public class OutterClass extends ClassC{
 
     private static String msg = "GeeksForGeeks";
 

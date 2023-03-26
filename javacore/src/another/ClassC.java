@@ -1,5 +1,5 @@
 package another;
 
-public final class ClassC {
+public class ClassC {
     protected int a;
 }
