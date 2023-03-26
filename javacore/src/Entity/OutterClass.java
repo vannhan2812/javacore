@@ -1,10 +1,14 @@
 package Entity;
 
+import another.ClassC;
+
 public class OutterClass {
+
     private static String msg = "GeeksForGeeks";
 
     OutterClass(){
-        System.out.println("outer class constructor");
+        a=8;
+        System.out.println("outer class constructor"+a);
     }
     // Static nested class
     public static class NestedStaticClass {

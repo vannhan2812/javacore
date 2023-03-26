@@ -40,4 +40,8 @@ public class MathProblem {
             }
         }
     }
+    public int calculate(int a,int b){
+        return a+b;
+    }
+
 }
